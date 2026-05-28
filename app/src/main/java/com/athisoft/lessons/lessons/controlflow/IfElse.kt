@@ -1,4 +1,4 @@
-package com.athisoft.lessons.lessons.functions
+package com.athisoft.lessons.lessons.controlflow
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable

@@ -25,31 +25,9 @@ class MainActivity : ComponentActivity() {
             Scaffold(modifier = Modifier.fillMaxSize()) { padding ->
                 Column(modifier = Modifier.padding(padding)) {
 
-            //Kotlin Conditions and If Else
 
-                    val sunDay = false
-                    val specialDay = true
 
-                    var ticketCost = 0
 
-                    if (sunDay == true){
-
-                        ticketCost = 500
-
-                    } else if(specialDay == true){
-
-                        ticketCost = 1000
-
-                    } else {
-
-                        ticketCost = 100
-
-                    }
-
-                    Text(
-                        fontSize = 20.sp,
-                        text = "Ticket Price is: $ticketCost"
-                    )
 
 
                 }
