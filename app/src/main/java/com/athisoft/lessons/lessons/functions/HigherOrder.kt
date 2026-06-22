@@ -54,3 +54,19 @@ fun fetchUserFromDatabase(onResult: (name:String) -> Unit) {
 fun showGreetings(name: String){
     Log.d("MainCode","Hi, $name")
 }
+
+
+
+//Returing a Function from Another Function
+
+fun greetingsFunction(): (name: String) -> String{
+
+    Log.d("Greetings", "First Function Executed!")
+
+    return ::greet
+}
+
+fun greet(name: String): String{
+
+    return "Hello, $name"
+}
