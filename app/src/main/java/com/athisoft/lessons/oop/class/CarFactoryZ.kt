@@ -1,8 +1,8 @@
-package com.athisoft.lessons.oop
+package com.athisoft.lessons.oop.`class`
 
 import android.util.Log
 
-class CarFactoryz {
+class CarFactoryZ {
 
     /*
 Classes

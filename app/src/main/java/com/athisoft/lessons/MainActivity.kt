@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import com.athisoft.lessons.oop.abstractclass.Cat
+import com.athisoft.lessons.oop.abstractclass.Dog
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("SuspiciousIndentation")
@@ -21,6 +23,10 @@ class MainActivity : ComponentActivity() {
             Scaffold(modifier = Modifier.fillMaxSize()) { padding ->
                 Column(modifier = Modifier.padding(padding)) {
 
+                /*
+                Kotlin Data Class
+                ----------------------
+                */
 
 
 
